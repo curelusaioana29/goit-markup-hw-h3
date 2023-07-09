@@ -11,13 +11,13 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"/>
-      <link rel="stylesheet"href="./css/modern-normalize.css"/>
+      <link rel="stylesheet"href="./modern-normalize.css"/>
       <link rel="stylesheet" href="./css/styles.css" />
     
   </head>
-  <body>
+  <body class="container">
     <!--Header-->
-    <header class="header">
+    <header class="border-header">
       <a href="index.html" class="logo"
         ><span class="logo-color">Web</span>Studio</a
       >
@@ -28,7 +28,7 @@
             <a href="./index.html" class="link1">Studio</a>
            
           </li>
-          <li><a href="./portofolio.html" class="link2">Portfolio</a></li>
+          <li><a href="./portfolio.html" class="link2">Portfolio</a></li>
           <li><a class="link2">Contacts</a></li>
         </ul>
       </nav>
@@ -47,12 +47,12 @@
     <!--Main Section-->
     <main>
       <!--Title and contact button-->
-      <section class="main-title-section">
+      <section class="global-title">
         <h1 class="main-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
         <button type="button" class="main-button">Request our service</button>
       </section>
       <!--Qualities-->
-      <div>
+      <section class="section">
         <ul class="qualities-list">
           <li>
             <h3 class="qualities-title">ATTENTION TO DETAILS</h3>
@@ -83,35 +83,41 @@
             </p>
           </li>
         </ul>
-      </div>
+      </section>
       <!--What we do Section-->
-      <section>
+      <section class="section">
+        <div class="image-section">
         <h2 class="title-what-we-do">What we do</h2>
-        <img
+        
+        
+        <img class="images"
           width="370"
           height="294"
           src="images/img(1)squoosh optimized.jpg"
           alt="typing on keyboard"
         />
-        <img
+        <img class="images"
           width="370"
           height="294"
           src="images/img (2)squoosh optimized.jpg"
           alt="mobile development"
         />
-        <img
+        <img class="images"
           width="370"
           height="294"
           src="images/img (3)squoosh optimized.jpg "
           alt="choosing color"
         />
+      </div>
       </section>
       <!--Team Section-->
-      <section>
+      <section class="section1">
+        <div class="section-bg">
         <h2 class="title-our-team">Our Team</h2>
         <ul class="team-list">
           <li>
-            <img
+            <div class="team-member">
+            <img class="card-bg"
               width="270"
               height="260"
               src="images/img(4)squoosh optimized.jpg"
@@ -119,9 +125,11 @@
             />
             <h3 class="our-team-member">Christopher Walker</h3>
             <p class="our-team-jobs">Product Designer</p>
+          </div>
           </li>
           <li>
-            <img
+            <div class="team-member">
+            <img class="card-bg"
               width="270"
               height="260"
               src="images/img (5)squoosh optimized.jpg"
@@ -129,9 +137,11 @@
             />
             <h3 class="our-team-member">Kylie Evans</h3>
             <p class="our-team-jobs">Frontend Developer</p>
+          </div>
           </li>
           <li>
-            <img
+            <div class="team-member">
+            <img class="card-bg" 
               width="270"
               height="260"
               src="images/img (6)squoosh optimized.jpg"
@@ -139,9 +149,11 @@
             />
             <h3 class="our-team-member">Ryan Harris</h3>
             <p class="our-team-jobs">Marketing</p>
+          </div>
           </li>
           <li>
-            <img
+            <div class="team-member">
+            <img class="card-bg"
               width="270"
               height="260"
               src="images/img (7)squoosh optimized.jpg"
@@ -149,8 +161,10 @@
             />
             <h3 class="our-team-member">Tyler Moore</h3>
             <p class="our-team-jobs">UI Designer</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--Footer-->
