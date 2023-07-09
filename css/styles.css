@@ -1,0 +1,350 @@
+li{list-style-type: none;}
+/*nav*/
+.top-line-bg{
+  width: 1600px;
+height: 80px;
+flex-shrink: 0;
+background: #FFF;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.contact{margin-left:20px;}
+.text-header{
+  color: #2196F3;
+font-size: 26px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+text-align: left;
+margin:0;
+}
+.studio{color:#000000}
+.menu{list-style:none;
+  display:flex;
+  gap: 20px;
+}
+
+/*second root*/
+
+.bg{
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+  background: #2F303A;
+ 
+  
+}
+
+/*title and button*/
+h1.main-title{display: flex;
+  width: 696px;
+  text-align: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #FFF;
+font-size: 44px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+
+}
+.button-active 
+{
+  color: #FFF;
+  text-align: center;
+font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+cursor:pointer;
+}
+.button-active .button-active:hover,
+.button-active .button-active:focus{
+  color:#2196F3;
+}
+.button-active .button-active:active{color:red
+
+}
+.all{width: 64px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+background: #2196F3;
+
+/* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+.div1, .div2, .div3, .div4{
+  flex:1;
+  margin: 0 10px;
+}
+.center-container{
+  display:flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-container{
+  display:flex;
+  justify-content:flex-start;
+}
+.team-member1, .team-member2, .team-member3, .team-member4{
+  margin-right:10px;
+  text-align:center;
+}
+.image-team1, .image-team2, .image-team3, .image-team4{
+  display:flex;
+}
+.center-text1, .center-text2, .center-text3, .center-text4{
+  text-align:center;
+}
+
+
+
+.image-container{
+  display:flex;
+  justify-content:space-evenly;
+}
+.image-container{
+  margin-right:0%;
+  
+}
+
+/*alex aj*/
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --background-color: #ffffff;
+  --brand-color: #2196f3;
+}
+.header {
+  border: 1px solid #ececec;
+}
+/*logo*/
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.logo-color {
+  color: var(--brand-color);
+}
+.logo-second-color {
+  color: var(--background-color);
+}
+/*Body*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--title-color);
+}
+/*Lists*/
+.header-links,
+.header-contacts,
+.footer-contacts,
+.qualities-list,
+.team-list,
+.button-list,
+.projects-list > ul {
+  list-style: none;
+}
+
+/*Links*/
+.link {
+  text-decoration: none;
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 2%;
+}
+.contacts:hover,
+.link:hover,
+.contacts:focus,
+.link:focus {
+  color: var(--brand-color);
+}
+/*Contacts*/
+.contacts {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 2%;
+}
+/*Main Section title + button*/
+.main-title-section {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 6%;
+}
+.main-button {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  letter-spacing: 6%;
+}
+/*qualities*/
+.qualities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.qualities-content {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 3%;
+}
+/*What we do*/
+.title-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+/*Our Team*/
+.title-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.team-list {
+  color: var(--title-color);
+}
+.our-team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.our-team-jobs {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+}
+/*Portfolio page*/
+/*Buttons*/
+.button {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.button-all {
+  width: 64px;
+  height: 38px;
+}
+.button-web-sites {
+  width: 120px;
+  height: 38px;
+}
+.button-apps {
+  width: 83px;
+  height: 38px;
+}
+.button-design {
+  width: 96px;
+  height: 38px;
+}
+.button-marketing {
+  width: 121px;
+  height: 38px;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+}
+/* Projects */
+.project {
+  border: 1px solid #eee;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+.project-type {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 3%;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 3%;
+}
+.footer-location {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+/*Footer Adress*/
+.adress {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+.location {
+  color: var(--background-color);
+  line-height: 1.18;
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--brand-color);
+}
